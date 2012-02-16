@@ -7,7 +7,7 @@ Release:          1
 Summary:          HTML exportation for R objects
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              None
+URL:              http://cran.r-project.org/web/packages/R2HTML/index.html
 Source0:          http://cran.r-project.org/src/contrib/Archive/R2HTML/R2HTML_2.1.tar.gz
 Requires:         R-boot R-splines R-survival R-stats R-cluster R-nlme R-rpart R-nnet R-utils 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
