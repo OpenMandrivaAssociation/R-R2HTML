@@ -9,9 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-boot R-splines R-survival R-stats R-cluster R-nlme R-rpart R-nnet R-utils 
+Requires:         R-boot R-splines R-survival R-stats R-cluster R-nlme
+Requires:         R-rpart R-nnet R-utils
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-boot R-splines R-survival R-stats R-cluster R-nlme R-rpart R-nnet R-utils 
+BuildRequires:    R-boot R-splines R-survival R-stats R-cluster R-nlme
+BuildRequires:    R-rpart R-nnet R-utils
 %rename R-cran-R2HTML
 
 %description
