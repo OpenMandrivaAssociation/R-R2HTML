@@ -9,11 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-boot R-splines R-survival R-stats R-cluster R-nlme
-Requires:         R-rpart R-nnet R-utils
+Requires:         R-boot R-splines R-survival R-stats R-cluster R-nlme R-rpart R-nnet R-utils 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-boot R-splines R-survival R-stats R-cluster R-nlme
-BuildRequires:    R-rpart R-nnet R-utils
+BuildRequires:    R-boot R-splines R-survival R-stats R-cluster R-nlme R-rpart R-nnet R-utils 
 %rename R-cran-R2HTML
 
 %description
@@ -55,3 +53,39 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/output
 %{rlibdir}/%{packname}/samples
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.2-1
++ Revision: 774986
+- Update to latest version
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
++ Revision: 774730
+- Update and rebuild with R2spec
+- Update and rebuild with R2spec
+
+* Fri Dec 25 2009 Jérôme Brenier <incubusss@mandriva.org> 1.59.1-1mdv2010.1
++ Revision: 482255
+- new version 1.59.1
+
+* Tue Sep 08 2009 Thierry Vignaud <tv@mandriva.org> 1.59-2mdv2010.0
++ Revision: 433083
+- rebuild
+
+* Sun Aug 10 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 1.59-1mdv2009.0
++ Revision: 270297
+- update to new version 1.59
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1.58-4mdv2009.0
++ Revision: 260150
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.58-3mdv2009.0
++ Revision: 248236
+- rebuild
+
+* Sun Feb 17 2008 Tomasz Pawel Gajc <tpg@mandriva.org> 1.58-1mdv2008.1
++ Revision: 169873
+- import R-cran-R2HTML
+
