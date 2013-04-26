@@ -1,6 +1,8 @@
 %global packname  R2HTML
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
 Version:          2.2
 Release:          1
