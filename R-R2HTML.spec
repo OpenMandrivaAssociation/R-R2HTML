@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.2
-Release:          2
+Release:          3
 Summary:          HTML exportation for R objects
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
